@@ -2,7 +2,7 @@ package com.sky.mapper;
 
 public class MyBatisStatementGenerator {
     public static void main(String[] args) {
-        String[] fields = {"name", "username", "password","phone","sex","idNumber","updateTime","updateUser","status"};
+        String[] fields = {"name", "categoryId","price","image","description","status","updateTime","updateUser"};
         StringBuilder statementBuilder = new StringBuilder();
 
         for (String field : fields) {
